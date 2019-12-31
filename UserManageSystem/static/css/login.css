@@ -1,0 +1,67 @@
+body {
+    width: 100%;
+    height: 100%;
+    background: url("../images/loginBg.jpg") no-repeat fixed center center;
+    overflow: hidden;
+    background-size: cover;
+    background-color: #464646;
+}
+
+/*手机端添加左右间距*/
+.margin-LR {
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.login-box {
+    background: rgba(255,255,255,0.8);
+    margin-top: 10%;
+    border-radius: 25px;
+}
+
+.login-header {
+    text-align: center;
+}
+
+/*左右横线效果*/
+.info-text span {
+    display: block;
+    position: relative;
+    color: black;
+    text-align: center;
+}
+.info-text span:before, .info-text span:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    background: #8c8c8c;
+    width: 40%;
+    height: 1px;
+}
+.info-text span:before {
+    left: 2%;
+}
+.info-text span:after {
+    right: 2%;
+}
+
+/*元素间距*/
+.padding {
+    margin-bottom: 10px;
+}
+
+/*元素居中*/
+.center {
+    text-align: center;
+}
+
+/*提示字体效果*/
+.tip {
+    font-size: 5px;
+    color: gray;
+}
+
+/*空白占位*/
+.blank {
+    height: 40px;
+}
